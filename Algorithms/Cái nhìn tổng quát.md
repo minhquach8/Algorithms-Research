@@ -12,5 +12,5 @@ Tóm lại, thuật toán học máy được nhiều tổ chức sử dụng r�
 Đầu tiên chúng ta xem dữ liệu mà chúng ta sẽ làm việc trên đó trước khi chúng ta bắt đầu triển khai phần mềm để dự đoán giá trị thị trường chứng khoán. Trong phần này, chúng ta sẽ xem xét giá cổ phiếu của Tập đoàn Microsoft (MSFT) theo báo cáo của Hiệp hội Báo giá Tự động Các Nhà kinh doanh Chứng khoán Quốc gia (NASDAQ). Dữ liệu giá cổ phiếu sẽ được cung cấp dưới dạng Tệp được phân tách bằng dấu phẩy (.csv), tệp này có thể được mở và phân tích trong Excel hoặc Bảng tính.
 
 
-
-#Khainiem
+🏠[[General]]
+#Khainiem #Vande

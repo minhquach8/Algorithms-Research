@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "134d5b75cb0d52d8",
+        "id": "e1697d144022f673",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Machine Learning for Stock Market Prediction with Step-by-Step Implementation.md",
+            "file": "Long Short Term Memory.md",
             "mode": "preview"
           }
         }
@@ -60,8 +60,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "178f746209f18cce",
@@ -77,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Machine Learning for Stock Market Prediction with Step-by-Step Implementation.md",
+                "file": "Long Short Term Memory.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Machine Learning for Stock Market Prediction with Step-by-Step Implementation.md",
+                "file": "Long Short Term Memory.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,17 +126,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "134d5b75cb0d52d8",
+  "active": "e1697d144022f673",
   "lastOpenFiles": [
-    "Machine Learning for Stock Market Prediction with Step-by-Step Implementation.md",
-    "Cái nhìn tổng quát.md",
-    "General.md",
     "Long Short Term Memory.md",
+    "RNN.md",
+    "General.md",
+    "Cái nhìn tổng quát.md",
+    "Algorithms.md",
     "Chứng khoán là gì.md",
     "🏡Home Page.md",
     "IPO là gì.md",
     "Kinh tế vĩ mô.md",
-    "Phân tích cơ bản.md",
-    "Nến nhật là gì.md"
+    "Phân tích cơ bản.md"
   ]
 }
