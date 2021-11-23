@@ -1,0 +1,94 @@
+{
+  "main": {
+    "id": "2163e008362ba789",
+    "type": "split",
+    "children": [
+      {
+        "id": "868ced72399de2b0",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Algorithms/RNN.md",
+            "mode": "preview"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "af48e7e3b27af35c",
+    "type": "split",
+    "children": [
+      {
+        "id": "afcebae4f71ce317",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f7bbec839ff70b38",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "95ee8d2f6dda6329",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "ba4bff7eefd1ed79",
+    "type": "split",
+    "children": [
+      {
+        "id": "e13fbcaf475e44df",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "da1ee47ef9ddee9f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Algorithms/RNN.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "868ced72399de2b0",
+  "lastOpenFiles": [
+    "Algorithms/RNN.md",
+    "Algorithms/Long Short Term Memory.md"
+  ]
+}
