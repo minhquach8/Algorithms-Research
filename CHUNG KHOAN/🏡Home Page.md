@@ -4,3 +4,5 @@
 * [[Phân tích cơ bản]]
 * [[Cổ phiếu và Trái phiếu]]
 * [[Nến nhật là gì]]
+* [[Các phương pháp đầu tư]]
+* [[Hướng dẫn lọc cổ phiếu]]

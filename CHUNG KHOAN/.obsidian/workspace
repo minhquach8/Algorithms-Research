@@ -4,11 +4,36 @@
     "type": "split",
     "children": [
       {
-        "id": "17946005fcfa33ae",
+        "id": "95b8b5f83ef1bc70",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "🏡Home Page.md",
+            "mode": "preview"
+          }
+        }
+      },
+      {
+        "id": "97583952f8b602f4",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Hướng dẫn lọc cổ phiếu.md",
+            "mode": "preview"
+          }
+        }
+      },
+      {
+        "id": "cc89bd75e18b003d",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "4M của Phil Town.md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -36,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ipo",
+                "query": "chứng chỉ quỹ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -57,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "178f746209f18cce",
@@ -73,6 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "4M của Phil Town.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "4M của Phil Town.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -106,15 +134,7 @@
             }
           },
           {
-            "id": "23a8f585a8572f67",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
-            }
-          },
-          {
-            "id": "348596c5b970f91b",
+            "id": "311d362e3bc982d3",
             "type": "leaf",
             "state": {
               "type": "calendar",
@@ -122,24 +142,24 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
     "width": 300,
     "collapsed": true
   },
-  "active": "17946005fcfa33ae",
+  "active": "cc89bd75e18b003d",
   "lastOpenFiles": [
-    "Chứng khoán là gì.md",
+    "4M của Phil Town.md",
+    "Hướng dẫn lọc cổ phiếu.md",
     "🏡Home Page.md",
-    "IPO là gì.md",
-    "Kinh tế vĩ mô.md",
-    "Phân tích cơ bản.md",
-    "Nến nhật là gì.md",
-    "Thuật ngữ thị trường chứng khoán.md",
+    "Các phương pháp đầu tư.md",
     "Qũy đầu tư chứng khoán.md",
-    "Phân tích kỹ thuật.md",
-    "Cổ phiếu và Trái phiếu.md"
+    "Chứng khoán là gì.md",
+    "Thuật ngữ thị trường chứng khoán.md",
+    "Vốn hóa là gì.md",
+    "IPO là gì.md",
+    "Kinh tế vĩ mô.md"
   ]
 }
