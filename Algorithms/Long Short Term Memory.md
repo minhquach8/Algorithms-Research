@@ -419,3 +419,8 @@ Tuy nhiên, với sự ra đời của Học máy và các thuật toán mạnh 
 Dự đoán thị trường chứng khoán là một thủ tục tốn nhiều thời gian và công sức cách đây vài năm hoặc thậm chí một thập kỷ. Tuy nhiên, với việc ứng dụng máy học vào dự báo thị trường chứng khoán, thủ tục đã trở nên đơn giản hơn rất nhiều. Máy học không chỉ tiết kiệm thời gian và tài nguyên mà còn vượt trội hơn con người về hiệu suất. nó sẽ luôn ưu tiên sử dụng một thuật toán máy tính được đào tạo vì nó sẽ tư vấn cho bạn chỉ dựa trên sự kiện, con số và dữ liệu và sẽ không ảnh hưởng đến cảm xúc hoặc thành kiến.
 
 Reference: [# Machine Learning for Stock Market Prediction with Step-by-Step Implementation](https://www.analyticsvidhya.com/blog/2021/10/machine-learning-for-stock-market-prediction-with-step-by-step-implementation/).
+
+---------------------------------------------------------------------
+### Code mẫu: 
+[# Stock Price Prediction – Machine Learning Project in Python](https://data-flair.training/blogs/stock-price-prediction-machine-learning-project-in-python/)
+[# How to Predict Stock Prices in Python using TensorFlow 2 and Keras](https://www.thepythoncode.com/article/stock-price-prediction-in-python-using-tensorflow-2-and-keras)

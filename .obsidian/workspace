@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Algorithms/RNN.md",
+            "file": "Algorithms/Linear Regression.md",
             "mode": "preview"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/RNN.md",
+                "file": "Algorithms/Linear Regression.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,7 +88,11 @@
   },
   "active": "868ced72399de2b0",
   "lastOpenFiles": [
-    "Algorithms/RNN.md",
-    "Algorithms/Long Short Term Memory.md"
+    "Algorithms/Linear Regression.md",
+    "Algorithms/Algorithms.md",
+    "Algorithms/Long Short Term Memory.md",
+    "Algorithms/Cái nhìn tổng quát.md",
+    "Algorithms/General.md",
+    "Algorithms/RNN.md"
   ]
 }
