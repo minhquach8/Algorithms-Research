@@ -4,29 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "e1697d144022f673",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Long Short Term Memory.md",
-            "mode": "source"
-          }
-        }
-      },
-      {
-        "id": "bd89439c62d2d333",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "LSTM Implementation.md",
-            "mode": "preview"
-          }
-        }
-      },
-      {
-        "id": "7ac104786f83edb5",
+        "id": "74d547430751d626",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -149,17 +127,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "7ac104786f83edb5",
+  "active": "74d547430751d626",
   "lastOpenFiles": [
     "LSTM Theory.md",
-    "LSTM Implementation.md",
+    "Images/LSTM6.JPG",
     "Long Short Term Memory.md",
+    "LSTM Implementation.md",
     "Algorithms.md",
     "General.md",
     "Cái nhìn tổng quát.md",
     "RNN.md",
     "Chứng khoán là gì.md",
-    "🏡Home Page.md",
-    "IPO là gì.md"
+    "🏡Home Page.md"
   ]
 }
