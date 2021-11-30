@@ -20,8 +20,7 @@ Lưu ý: Thông tin trong bài viết này chỉ dành cho mục đích thông t
 
 # Step 1: Get Historic Pricing Data
 Để bắt đầu, chúng tôi cần dữ liệu. Điều này sẽ xuất hiện dưới dạng dữ liệu giá lịch sử cho Tesla Motor’s ($ TSLA). 
-```
-import pandas as pd
+```import pandas as pd
 
 # Load local .csv file as DataFrame
 df = pd.read_csv('TSLA.csv')
@@ -61,8 +60,7 @@ max    699.989990  718.719971  691.119995  705.669983  705.669983  3.046940e+08
 ```
 # Step 2: Prepare the data
 Trước khi bắt đầu phát triển mô hình hồi quy, chúng tôi sẽ cắt bớt một số dữ liệu. Cột "Ngày tháng" sẽ được chuyển đổi thành một DatetimeIndex và cột "Điều chỉnh đóng (Adj Price)" sẽ là các giá trị số duy nhất mà chúng tôi giữ lại. Mọi thứ khác đang bị giảm xuống.
-```
-# Reindex data using a DatetimeIndex
+```# Reindex data using a DatetimeIndex
 df.set_index(pd.DatetimeIndex(df['Date']), inplace=True)
 
 # Keep only the 'Adj Close' Value
@@ -120,8 +118,7 @@ Một trong những giả định này là các biến trong dữ liệu là đ�
 Chỉ báo kỹ thuật là các giá trị được tính toán mô tả các chuyển động trong dữ liệu định giá lịch sử cho các chứng khoán như cổ phiếu, trái phiếu và ETF. Các nhà đầu tư sử dụng các số liệu này để dự đoán chuyển động của cổ phiếu nhằm xác định tốt nhất thời điểm mua, bán hoặc nắm giữ.
 
 Các chỉ báo kỹ thuật thường được sử dụng bao gồm đường trung bình động (SMA, EMA, MACD), Chỉ số Sức mạnh Tương đối (RSI), Dải Bollinger (BBANDS) và một số chỉ số khác. Chắc chắn không thiếu các chỉ báo kỹ thuật phổ biến trên mạng để bạn lựa chọn. Để thêm các chỉ báo kỹ thuật của chúng tôi, chúng tôi sẽ sử dụng thư viện pandas_ta. Để bắt đầu, hãy thêm đường trung bình động theo cấp số nhân (EMA) vào dữ liệu của chúng tôi:
-```
-import pandas_ta
+```import pandas_ta
 
 # Add EMA to dataframe by appending
 # Note: pandas_ta integrates seamlessly into
@@ -160,8 +157,7 @@ Như rõ ràng từ các bản in ở trên, giờ đây chúng tôi có một c
 Lưu ý: Thư viện pandas_ta sẽ thay đổi tên cột. Ở đây, chúng tôi thấy cột “Điều chỉnh đóng” được đổi tên thành “adj_close”. Đây là hành vi được mong đợi nhưng có thể gây ra sự cố nếu một người không biết về chức năng này.
 
 Đây là một tin tuyệt vời nhưng cũng đi kèm với một cảnh báo: 9 mục nhập đầu tiên trong dữ liệu của chúng tôi sẽ có giá trị NaN vì không có giá trị tiếp tục nào mà từ đó EMA có thể được tính toán.
-```
-# Print the first 10 entries of our data
+```# Print the first 10 entries of our data
 print(df.head(10))
 
              adj_close     EMA_10
@@ -226,8 +222,7 @@ Lưu ý: Dữ liệu X_train, X_test, y_train và y_test là các đối tượn
 
 # Step 5: Training the Model
 Chúng tôi có dữ liệu của mình và bây giờ chúng tôi muốn xem nó có thể phù hợp với mô hình tuyến tính như thế nào. Lớp `LinearRegression` của `Scikit-learn` làm cho điều này đủ đơn giản — chỉ yêu cầu 2 dòng mã (không bao gồm nhập):
-```
-from sklearn.linear_model import LinearRegression
+```from sklearn.linear_model import LinearRegression
 
 # Create Regression Model
 model = LinearRegression()
@@ -243,8 +238,7 @@ Mô hình tuyến tính tạo ra các hệ số cho mỗi đối tượng trong 
 
 Ngoài ra, chúng tôi có thể sử dụng các giá trị dự đoán từ mô hình được đào tạo của chúng tôi để tính toán sai số bình phương trung bình và hệ số xác định bằng cách sử dụng các chức năng khác từ mô-đun `sklearn.metrics`. 
 
-```
-from sklearn.metrics import mean_squared_error, r2_score, mean_absolute_error
+```from sklearn.metrics import mean_squared_error, r2_score, mean_absolute_error
 
 # Printout relevant metrics
 print("Model Coefficients:", model.coef_)
@@ -292,4 +286,105 @@ Việc sử dụng đường trung bình động hàm mũ (EMA) được chọn 
 1.  Chatterjee. _Regression Analysis by Example, 5th Edition_. 5th ed., Wiley, 2012.
 2.  Guyon, Isabelle. A Scaling Law for the Validation-Set Training-Set Size Ratio. _In AT & T Bell Laboratories_. (1997) doi:10.1.1.33.1337
 3.  Xu, Yun, and Royston Goodacre. “On Splitting Training and Validation Set: A Comparative Study of Cross-Validation, Bootstrap and Systematic Sampling for Estimating the Generalization Performance of Supervised Learning.” _Journal of analysis and testing_ vol. 2,3 (2018): 249-262. doi:10.1007/s41664-018-0068-2
+---------------------------------------------------------------------
+Reference: [# Stock prediction using Linear Regression in Python](https://medium.com/codex/stock-predication-using-regression-algorithm-in-python-fb8b426453b9)
+# Regression algorithm model implementation
+Trước khi chúng ta đi đến phần kỹ thuật của việc triển khai mô hình hồi quy cho tập dữ liệu, hãy nói một chút về thuật toán hồi quy. Về cơ bản, hồi quy là một tập hợp các kỹ thuật để ước tính các mối quan hệ. 
+Phương trình hồi quy tuyến tính có thể được viết như sau:
+![[Pasted image 20211130151207.png]]
 
+![[Pasted image 20211130151228.png]]
+Trong đó, x1, x2,… .xn đại diện cho các biến độc lập trong khi các hệ số θ1, θ2, θn đại diện cho trọng số.
+```from sklearn.linear_model import LinearRegression  
+from sklearn.metrics import confusion_matrix, accuracy_score  
+regression = LinearRegression()  
+regression.fit(train_x, train_y)  
+print("regression coefficient",regression.coef_)  
+print("regression intercept",regression.intercept_)regression coefficient [-6.51840470e-01  8.48419125e-01  8.12048390e-01 -3.50557805e-10]  
+regression intercept -0.0315814559475216
+
+```
+# Prediction and Estimation
+## The coefficient of determination R²
+Chúng tôi sẽ tính hệ số xác định được ký hiệu là R², hệ số này nhận các giá trị từ 0 đến 1, giá trị R² càng cao thì hồi quy tuyến tính càng thành công khi giải thích sự biến đổi của các giá trị Y, trong trường hợp của chúng tôi, các giá trị Y đại diện cho lượng hàng đóng giá của công ty chủ thể. Dưới đây là bài toán đằng sau Hệ số xác định R²
+![[Pasted image 20211130151435.png]]
+
+```_# the coefficient of determination R²_   
+regression_confidence = regression.score(test_x, test_y)  
+print("linear regression confidence: ", regression_confidence)linear regression confidence:  0.9836914831421212
+```
+Hệ số xác định R² cho dữ liệu của chúng tôi là 0,98, tương đương 98%, có nghĩa là mô hình của chúng tôi là mô hình tuyến tính giải thích sự biến đổi của tất cả các giá trị Y.
+
+## Prediction
+Như chúng ta có thể thấy bên dưới, danh sách dự đoán của các điểm dữ liệu từ mở, cao, thấp và vol không được sắp xếp dựa trên thời gian hoặc ngày, tại thời điểm này, việc sắp xếp các điểm dữ liệu này là không quan trọng, vì chúng tôi sẽ vẽ biểu đồ dựa trên các ngày liên quan bằng cách sử dụng phương thức scatter plot ().
+```predicted=regression.predict(test_x)  
+print(test_x.head())open       high        low        vol  
+551  45.750000  46.720001  42.500000  271678300  
+552  45.360001  48.919998  44.680000  233779100  
+553  48.270000  50.590000  47.880001  209106300  
+554  50.860001  55.700001  50.480000  270203000  
+555  56.990002  57.200001  51.500000  243669700
+```
+## Prediction Table of Actual Prices vs Predicted values
+```dfr=pd.DataFrame({'Actual_Price':test_y, 'Predicted_Price':predicted})  
+dfr.head(10)
+```
+```dfr.describe()
+```
+![[Pasted image 20211130151735.png]]
+
+# Model Evaluation
+MAE và RMSE là các số liệu thống kê phổ biến nhất được sử dụng để đo lường các biến liên tục hoặc trong trường hợp của chúng tôi là độ chính xác của các mô hình hồi quy của chúng tôi.
+Phép toán đằng sau cả hai Mô hình có thể khó hiểu hoặc hơi khó hiểu để hiểu được ý nghĩa của nó, nhưng hãy nghĩ về nó theo cách dễ hiểu này, Chúng ta có giá đóng cửa thực tế của cổ phiếu và giá cổ phiếu dự đoán được tính từ cùng giá cổ phiếu thực tế mà chúng ta đã nói, bây giờ chúng ta cần để tính toán sai số hoặc sự khác biệt giữa chúng để xem những dự đoán này chính xác như thế nào so với các giá trị thực tế hiện có.
+
+## Mean Absolute Error (MAE)
+MAE đo độ lớn trung bình của các lỗi trong một tập hợp các dự đoán mà không cần xem xét hướng của chúng.
+![[Pasted image 20211130151858.png]]
+
+## Root mean squared error (RMSE)
+RMSE là quy tắc tính điểm bậc hai cũng đo độ lớn trung bình của lỗi.
+![[Pasted image 20211130151934.png]]
+
+## Mean squared error (MSE)
+![[Pasted image 20211130152014.png]]
+MSE Sai số trung bình bình phương (MSE) đo mức trung bình của các bình phương của các lỗi - tức là sự khác biệt bình phương trung bình giữa các giá trị ước tính và giá trị thực tế. MSE là một hàm rủi ro, tương ứng với giá trị dự kiến của tổn thất lỗi bình phương.
+
+Tất cả các số liệu được đề cập ở trên có thể nằm trong khoảng từ 0 đến ∞ và không quan tâm đến hướng của lỗi. Chúng là những điểm số theo định hướng tiêu cực, có nghĩa là chúng thể hiện giá trị càng thấp càng tốt. **Hãy nhớ rằng RMSE sẽ luôn có giá trị lớn hơn MSE**, Ngoài ra, nó có thể phạt nhiều dữ liệu liên quan đến lỗi hơn nên **RMSE có thể là một thước đo tốt hơn MSE.**
+
+Trong trường hợp của chúng tôi, kết quả đánh giá của chúng tôi được đề cập như sau:
+```print('Mean Absolute Error (MAE):', metrics.mean_absolute_error(test_y, predicted))  
+print('Mean Squared Error (MSE) :', metrics.mean_squared_error(test_y, predicted))  
+print('Root Mean Squared Error (RMSE):', np.sqrt(metrics.mean_squared_error(test_y, predicted)))Mean Absolute Error (MAE): 0.7581175544856527  
+Mean Squared Error (MSE) : 1.001586723642404  
+Root Mean Squared Error (RMSE): 1.000793047359145
+```
+Tất cả các kết quả số liệu của chúng tôi đều hiển thị các giá trị nhỏ hơn 1, từ quan điểm diễn giải, tôi nghĩ MAE là một phép đo số liệu tốt hơn cho các vấn đề tuyến tính so với RMSE, vì RMSE không chỉ mô tả sai số trung bình và có các hàm ý khác khó xác định hơn và hiểu. Ngoài ra, RMSE có tầm quan trọng hơn nhiều đối với các lỗi lớn, vì vậy các mô hình sẽ cố gắng giảm thiểu những lỗi này nhiều nhất có thể.
+### Model Accuracy
+```x2 = dfr.Actual_Price.mean()  
+y2 = dfr.Predicted_Price.mean()  
+Accuracy1 = x2/y2*100  
+print("The accuracy of the model is " , Accuracy1)The accuracy of the model is  99.68318915929602
+```
+```plt.scatter(dfr.Actual_Price, dfr.Predicted_Price,  color='Darkblue')  
+plt.xlabel("Actual Price")  
+plt.ylabel("Predicted Price")plt.show()
+```
+![[Pasted image 20211130152351.png]]
+```plt.plot(dfr.Actual_Price, color='black')  
+plt.plot(dfr.Predicted_Price, color='lightblue')  
+plt.title("Nio prediction chart")  
+plt.legend();
+```
+![[Pasted image 20211130152413.png]]
+# Conclusion
+Thị trường chứng khoán luôn là chủ đề nóng nhất khi nói đến dự báo chuỗi thời gian hoặc cố gắng cảm nhận thị trường nói chung đang diễn ra như thế nào. Không thể tìm ra công thức “đi tới” để dự đoán hướng đi của thị trường chứng khoán, bởi vì thị trường biến động liên tục, sự không chắc chắn của các biến số chuyển động có thể tác động đến sự biến động của thị trường chứng khoán từ rủi ro liên quan đến bất ổn chính trị và các yếu tố kinh tế vĩ mô, danh sách có thể tiếp tục.
+Để có tầm nhìn tốt hơn về nơi thị trường đang đi, việc dựa vào các mô hình hồi quy và dự đoán các giá trị nhất định dựa trên hiệu suất trong quá khứ là không đủ tốt. Các điểm sau đây sẽ bổ sung cho một báo cáo mô hình hồi quy chính thức.
+
+### 1- Fundamental analysis
+Phân tích cơ bản là một phương pháp để phân tích và dự đoán giá trị nội tại của công ty dựa trên dữ liệu hoạt động trong quá khứ và hiện tại, những dữ liệu này ở dạng báo cáo tài chính và thông tin bảng cân đối kế toán. Do đó, thông tin có thể được phân tích để tính toán các bội số hiện tại của công ty như P / E, P / B, hệ số thanh khoản, tỷ lệ nợ, tỷ suất lợi nhuận, tỷ suất lợi nhuận, v.v. Thông tin này có thể cho bạn niềm tin vững chắc vào định hướng của công ty và giúp bạn đưa ra các quyết định quan trọng để cân nhắc đầu tư vào công ty hay không.
+
+### 2- Technical Analysis
+Phân tích kỹ thuật là phương pháp sử dụng các phương pháp thống kê và xu hướng dựa trên dữ liệu lịch sử, ví dụ, tổng khối lượng hoặc giá trị hàng ngày của một cổ phiếu được giao dịch và đánh giá các mẫu lịch sử để dự đoán biến động giá cổ phiếu trong tương lai.
+
+### 3- Sentiment Analysis
+Về cơ bản, Phân tích cảm xúc là việc sử dụng xử lý ngôn ngữ Tự nhiên cao cấp để xác định xem dữ liệu văn bản đã cho là tích cực, tiêu cực hay trung tính. Bạn có thể tiến hành phân tích này trong các đoạn văn, một tập hợp lớn dữ liệu văn bản viết, đánh giá từ khách hàng của bạn, luận án nghiên cứu, bài báo khoa học, v.v. Trong trường hợp của chúng tôi, bạn có thể sử dụng phương pháp này để phân tích tài khoản Twitter cho công ty chủ đề hoặc đánh giá từ tài khoản Facebook của nó, v.v.
