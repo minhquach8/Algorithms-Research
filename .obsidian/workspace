@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Algorithms/Support Vector Machine.md",
-            "mode": "preview"
+            "file": "Algorithms/Linear Regression.md",
+            "mode": "source"
           }
         }
       }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/Support Vector Machine.md",
+                "file": "Algorithms/Linear Regression.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,11 +88,11 @@
   },
   "active": "868ced72399de2b0",
   "lastOpenFiles": [
+    "Algorithms/Linear Regression.md",
+    "Algorithms/Long Short Term Memory.md",
     "Algorithms/Support Vector Machine.md",
     "Algorithms/Algorithms.md",
-    "Algorithms/Linear Regression.md",
     "Algorithms/General.md",
-    "Algorithms/Long Short Term Memory.md",
     "Algorithms/Cái nhìn tổng quát.md",
     "Algorithms/RNN.md"
   ]
