@@ -6,3 +6,4 @@
 * [[Nến nhật là gì]]
 * [[Các phương pháp đầu tư]]
 * [[Hướng dẫn lọc cổ phiếu]]
+* [[Các nhóm thông tin quan trọng]]

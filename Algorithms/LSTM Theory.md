@@ -44,7 +44,7 @@ In the example of our language model, we’d want to add the gender of the new s
 
 It’s now time to update the old cell state, $$C_{t-1}$$, into the new cell state $$C_t$$. The previous steps already decided what to do, we just need to actually do it.
 
-We multiply the old state by $$f_t$$, forgetting the things we decided to forget earlier. Then we add $$i_t * \tildeC_t$$. This is the new candidate values, scaled by how much we decided to update each state value.
+We multiply the old state by $$f_t$$, forgetting the things we decided to forget earlier. Then we add $$i_t*\tilde C_t$$. This is the new candidate values, scaled by how much we decided to update each state value.
 
 In the case of the language model, this is where we’d actually drop the information about the old subject’s gender and add the new information, as we decided in the previous steps.
 
@@ -59,7 +59,7 @@ For the language model example, since it just saw a subject, it might want to ou
 ## Variants on Long Short Term Memory
 What I’ve described so far is a pretty normal LSTM. But not all LSTMs are the same as the above. In fact, it seems like almost every paper involving LSTMs uses a slightly different version. The differences are minor, but it’s worth mentioning some of them.
 
-One popular LSTM variant, introduced by [Gers & Schmidhuber (2000)](ftp://ftp.idsia.ch/pub/juergen/TimeCount-IJCNN2000.pdf), is adding “peephole connections.” This means that we let the gate layers look at the cell state.
+One popular LSTM variant, introduced by [Gers & Schmidhuber (2000)], is adding “peephole connections.” This means that we let the gate layers look at the cell state.
 
 ![[Pasted image 20211130151847.png]]
 

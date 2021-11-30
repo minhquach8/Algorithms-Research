@@ -1,0 +1,2 @@
+- Được tạo ra bởi William J.O'Neil
+- Đây là phương pháp phù hợp cho đầu cơ (không phù hợp cho đầu tư dài hạn)

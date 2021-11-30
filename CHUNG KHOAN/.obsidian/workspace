@@ -4,13 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "718c079fdc4a81f1",
+        "id": "dc4d974d9daafa78",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Nến nhật là gì.md",
+            "file": "🏡Home Page.md",
             "mode": "preview"
+          }
+        }
+      },
+      {
+        "id": "31c584500006b1cb",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Các nhóm thông tin quan trọng.md",
+            "mode": "source"
           }
         }
       }
@@ -60,7 +71,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "178f746209f18cce",
@@ -76,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Nến nhật là gì.md",
+                "file": "Các nhóm thông tin quan trọng.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Nến nhật là gì.md",
+                "file": "Các nhóm thông tin quan trọng.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,17 +138,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "718c079fdc4a81f1",
+  "active": "31c584500006b1cb",
   "lastOpenFiles": [
-    "Nến nhật là gì.md",
+    "Các nhóm thông tin quan trọng.md",
     "🏡Home Page.md",
-    "Cổ phiếu và Trái phiếu.md",
-    "Phân tích cơ bản.md",
     "Phân tích kỹ thuật.md",
-    "Chứng khoán là gì.md",
+    "Kênh giá nối liền các đỉnh và đáy liên tiếp.md",
+    "Sóng Elliott.md",
+    "Lý thuyết Dow.md",
+    "Tâm lý giao dịch chứng khoán.md",
+    "CANSLIM.md",
     "Hướng dẫn lọc cổ phiếu.md",
-    "4M của Phil Town.md",
-    "Các phương pháp đầu tư.md",
-    "Qũy đầu tư chứng khoán.md"
+    "Nến nhật là gì.md"
   ]
 }

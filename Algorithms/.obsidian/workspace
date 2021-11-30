@@ -7,11 +7,8 @@
         "id": "74d547430751d626",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "LSTM Theory.md",
-            "mode": "preview"
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -77,7 +74,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LSTM Theory.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +90,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LSTM Theory.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
