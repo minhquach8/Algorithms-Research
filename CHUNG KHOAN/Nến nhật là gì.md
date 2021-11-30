@@ -8,7 +8,7 @@ Reference: [Mô hình nến Nhật là gì? Đọc hiểu biểu đồ nến Nh�
 
 ## Nến nhật là gì?
 
-**Mô hình nến Nhật**là công cụ được dùng trong phân tích kỹ thuật để *mô tả hành động giá cả*, hoặc *biến động tỷ giá* cũng như *mô tả tâm lý của nhà giao dịch* trong 1 phiên giao dịch nhất định.
+**Mô hình nến Nhật**là công cụ được dùng trong phân tích kỹ thuật để *mô tả hành động giá cả*, hoặc *biến động tỷ giá* cũng như *mô tả tâm lý của nhà giao dịch* trong 1 phiên giao dịch nhất định. (VIX)
 
 Màu nến có thể được thiết lập trên các công cụ trading. Mỗi sàn giao dịch lại có một thiết lập màu sắc khác nhau. Nhưng phổ biến nhất cho nến tăng là màu *Xanh*, nến giảm là màu *Đỏ*.
 

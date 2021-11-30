@@ -6,6 +6,7 @@ Chứng khoán là một bằng chứng xác nhận sự sở hữu hợp pháp 
 
 Chứng khoán bao gồm các loại như *cổ phiếu, trái phiếu, chứng chỉ quỹ ...* Chứng khoán cũng được coi là một phương tiện hàng hóa trừu tượng có thể thỏa thuận và có thể thay thế được, đại diện cho một giá trị tài chính.
 ### Phân loại chứng khoán
+
 Chứng khoán hiện nay được chia thành 3 loại phổ biến nhất:
 
 -   **Chứng khoán nợ** là loại chứng khoán xác nhận mối quan hệ giữa chủ nợ (người sở hữu) và công ty phát hành. Chứng khoán nợ thường được phát hành dưới dạng trái phiếu, chứng khoán dạng nợ, giấy tờ. Hiện nay, chứng khoán nợ có tỷ trọng giao dịch khá lớn trên thị trường chứng khoán.

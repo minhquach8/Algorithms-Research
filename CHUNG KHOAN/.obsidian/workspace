@@ -4,35 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "95b8b5f83ef1bc70",
+        "id": "718c079fdc4a81f1",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "🏡Home Page.md",
+            "file": "Nến nhật là gì.md",
             "mode": "preview"
-          }
-        }
-      },
-      {
-        "id": "97583952f8b602f4",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Hướng dẫn lọc cổ phiếu.md",
-            "mode": "preview"
-          }
-        }
-      },
-      {
-        "id": "cc89bd75e18b003d",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "4M của Phil Town.md",
-            "mode": "source"
           }
         }
       }
@@ -82,8 +60,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "178f746209f18cce",
@@ -99,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "4M của Phil Town.md",
+                "file": "Nến nhật là gì.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "4M của Phil Town.md",
+                "file": "Nến nhật là gì.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,17 +126,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "cc89bd75e18b003d",
+  "active": "718c079fdc4a81f1",
   "lastOpenFiles": [
-    "4M của Phil Town.md",
-    "Hướng dẫn lọc cổ phiếu.md",
+    "Nến nhật là gì.md",
     "🏡Home Page.md",
-    "Các phương pháp đầu tư.md",
-    "Qũy đầu tư chứng khoán.md",
+    "Cổ phiếu và Trái phiếu.md",
+    "Phân tích cơ bản.md",
+    "Phân tích kỹ thuật.md",
     "Chứng khoán là gì.md",
-    "Thuật ngữ thị trường chứng khoán.md",
-    "Vốn hóa là gì.md",
-    "IPO là gì.md",
-    "Kinh tế vĩ mô.md"
+    "Hướng dẫn lọc cổ phiếu.md",
+    "4M của Phil Town.md",
+    "Các phương pháp đầu tư.md",
+    "Qũy đầu tư chứng khoán.md"
   ]
 }
