@@ -31,7 +31,7 @@ Phân tích kỹ thuật là thực hành dự báo biến động giá tiềm n
 - Nhiều nhà đầu tư mới tham gia vào thị trường chỉ sử dụng phân tích kỹ thuật để theo dòng thị trường.
 - Những nhà đầu tư dài hạn sử dụng để xác định điểm mua có lợi.
 - Những nhà đầu tư lướt sóng sử dụng để tìm điểm mua thấp, bán cao.
-- Những tổ chức chuyên nghiệp sử dụng để  tạo hệ thống giao dịch tự động.
+- Những tổ chức chuyên nghiệp sử dụng để tạo hệ thống giao dịch tự động.
 
 ## Xác định xu hướng:
 - [[Lý thuyết Dow]]
