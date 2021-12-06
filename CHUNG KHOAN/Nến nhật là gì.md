@@ -28,6 +28,30 @@ Trong mô hình nến Nhật, mỗi cây nến thể hiện sự dao động c�
 -   Giá mở cửa thấp hơn giá đóng cửa thì nến sẽ có màu xanh => Biểu thị giá tăng.
 -   Giá mở cửa cao hơn giá đóng cửa thì nến sẽ có màu đỏ => Biểu thị giá giảm.
 
+## 6 mô hình đảo chiều tăng giá:
+1. Mô hình búa 
+2. Mô hình búa ngược
+3. Mô hình nhấn chìm tăng Engulfing
+4. Mô hình đường xuyên tăng Piercing Line
+5. Mô hình sao mai Morning Star
+6. Mô hình Three White Soldiers
+
+## 6 mô hình đảo chiều giảm giá:
+1. Mô hình Hanging Man
+2. Mô hình nhấn chìm giảm
+3. Mô hình sao băng (Shooting Star)
+4. Mô hình sao hôm (Evening Star)
+5. Mô hình Three Black Crows
+6. Mô hình Dark Cloud Cover 
+
+## 4 mô hình nến tiếp diễn:
+* Cho thấy một sự do dự, sự tích lũy của nhà đầu tư trên thị trường
+1. Mô hình nên Doji
+2. Mô hình con quay Spinning Top
+3. Mô hình giảm giá ba bước (Falling Three Methods)
+4. Mô hình tăng giá ba bước (Rising Three Methods)
+
+
 ## 5 loại nến Nhật cơ bản
 ![[Pasted image 20211113100139.png]]
 Các loại nến Nhật cơ bản nhât, bao gồm:
@@ -142,6 +166,8 @@ Three White Soldier là mô hình 3 nến **xuất hiện** trong một **xu hư
 ![[Pasted image 20211113102747.png]]
 ## Tổng kết
 Như vậy, mô hình nến Nhật sẽ giúp bạn  [[Phân tích kỹ thuật]] trong sự biến động của giá. Trên đây là hướng dẫn cơ bản về **các mô hình nến Nhật và cách đọc biểu đồ nến Nhật.**
+
+Sử dụng mô hình nến cũng nên kết hợp với các chỉ báo khác như: chỉ báo động lượng, chỉ báo xu hướng, chỉ báo volume, có thể cả chỉ báo về vĩ mô.
 
 ---
 Tags: #Khainiem #Nennhat #Kythuat

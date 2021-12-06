@@ -1,14 +1,17 @@
 {
   "main": {
-    "id": "354d677db5e34401",
+    "id": "874b8969247e7923",
     "type": "split",
     "children": [
       {
-        "id": "fc86873fd3285f20",
+        "id": "5e4bd9c1392aee32",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Chỉ số P/E, EPS, và PEG là gì.md",
+            "mode": "preview"
+          }
         }
       }
     ],
@@ -74,6 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Chỉ số P/E, EPS, và PEG là gì.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -90,6 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Chỉ số P/E, EPS, và PEG là gì.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -122,8 +127,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "fc86873fd3285f20",
+  "active": "5e4bd9c1392aee32",
   "lastOpenFiles": [
+    "Chỉ số P/E, EPS, và PEG là gì.md",
+    "🏡Home Page.md",
     "Nến nhật là gì.md",
     "Tâm lý giao dịch chứng khoán.md",
     "Sóng Elliott.md",
@@ -131,8 +138,6 @@
     "Kênh giá nối liền các đỉnh và đáy liên tiếp.md",
     "Lý thuyết Dow.md",
     "Kinh tế vĩ mô.md",
-    "🏡Home Page.md",
-    "Chứng khoán là gì.md",
-    "Các nhóm thông tin quan trọng.md"
+    "Chứng khoán là gì.md"
   ]
 }

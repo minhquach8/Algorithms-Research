@@ -1,3 +1,6 @@
 {
-  "baseFontSize": 16
+  "baseFontSize": 26,
+  "theme": "obsidian",
+  "translucency": false,
+  "cssTheme": "Night Owl"
 }

@@ -7,3 +7,4 @@
 * [[Các phương pháp đầu tư]]
 * [[Hướng dẫn lọc cổ phiếu]]
 * [[Các nhóm thông tin quan trọng]]
+* [[Chỉ số P/E, EPS, và PEG là gì]]
