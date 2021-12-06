@@ -1,3 +1,6 @@
+# Support Vector Machine 
+[[SVM Theory]]
+[[SVM Implementation]]
 Reference:[# Stock Market Prediction Using Machine Learning Model(SVM)](https://medium.com/@rupesh1684/stock-market-prediction-using-machine-learning-model-svm-e4aaca529886)
 Các hàm từ `pandas_datareader.data` và `pandas_datareader.wb` trích xuất dữ liệu từ các nguồn Internet khác nhau thành Pandas DataFrame 
 Hãy xem dữ liệu trong đó xx là tên cổ phiếu, lấy tên cổ phiếu từ https://in.finance.yahoo.com/quote/%5ENSEI/

@@ -1,6 +1,10 @@
 {
+<<<<<<< HEAD
   "baseFontSize": 26,
   "theme": "obsidian",
   "translucency": false,
   "cssTheme": "Night Owl"
+=======
+  "baseFontSize": 15
+>>>>>>> d072b7607c9bf8b0806d2aeb0812a9750190570f
 }

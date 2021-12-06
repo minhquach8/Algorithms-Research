@@ -9,8 +9,13 @@
         "state": {
           "type": "markdown",
           "state": {
+<<<<<<< HEAD
             "file": "Chỉ số P/E, EPS, và PEG là gì.md",
             "mode": "source"
+=======
+            "file": "Algorithms/SVM Implementation.md",
+            "mode": "preview"
+>>>>>>> d072b7607c9bf8b0806d2aeb0812a9750190570f
           }
         }
       }
@@ -77,7 +82,11 @@
             "state": {
               "type": "backlink",
               "state": {
+<<<<<<< HEAD
                 "file": "Chỉ số P/E, EPS, và PEG là gì.md",
+=======
+                "file": "Algorithms/SVM Implementation.md",
+>>>>>>> d072b7607c9bf8b0806d2aeb0812a9750190570f
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,6 +138,7 @@
   },
   "active": "5e4bd9c1392aee32",
   "lastOpenFiles": [
+<<<<<<< HEAD
     "Chỉ số P/E, EPS, và PEG là gì.md",
     "🏡Home Page.md",
     "Nến nhật là gì.md",
@@ -139,5 +149,17 @@
     "Lý thuyết Dow.md",
     "Kinh tế vĩ mô.md",
     "Chứng khoán là gì.md"
+=======
+    "Algorithms/SVM Implementation.md",
+    "Algorithms/SVM Theory.md",
+    "Algorithms/LSTM Theory.md",
+    "Algorithms/LSTM Implementation.md",
+    "Algorithms/Support Vector Machine.md",
+    "Algorithms/Long Short Term Memory.md",
+    "Algorithms/Linear Regression.md",
+    "Algorithms/Algorithms.md",
+    "Algorithms/General.md",
+    "Algorithms/Cái nhìn tổng quát.md"
+>>>>>>> d072b7607c9bf8b0806d2aeb0812a9750190570f
   ]
 }
